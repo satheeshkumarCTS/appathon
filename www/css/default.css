@@ -1,0 +1,135 @@
+
+/*----- MARGIN -----*/
+
+.margin-00 { margin: 0 !important;}
+
+.margin-t15 { margin-top: 15px !important;}
+.margin-t20 { margin-top: 20px !important;}
+.margin-t25 { margin-top: 25px !important;}
+.margin-t30 { margin-top: 30px !important;}
+.margin-t35 { margin-top: 35px !important;}
+.margin-t40 { margin-top: 40px !important;}
+
+.margin-b15 { margin-bottom: 15px !important;}
+.margin-b20 { margin-bottom: 20px !important;}
+.margin-b25 { margin-bottom: 25px !important;}
+.margin-b30 { margin-bottom: 30px !important;}
+.margin-b35 { margin-bottom: 35px !important;}
+.margin-b40 { margin-bottom: 40px !important;}
+
+/*----- PADDING -----*/
+
+.padding-00 { padding: 0 !important;}
+
+.padding-t15 { padding-top: 15px !important;}
+.padding-t20 { padding-top: 20px !important;}
+.padding-t25 { padding-top: 25px !important;}
+.padding-t30 { padding-top: 30px !important;}
+.padding-t35 { padding-top: 35px !important;}
+.padding-t40 { padding-top: 40px !important;}
+
+.padding-b15 { padding-bottom: 15px !important;}
+.padding-b20 { padding-bottom: 20px !important;}
+.padding-b25 { padding-bottom: 25px !important;}
+.padding-b30 { padding-bottom: 30px !important;}
+.padding-b35 { padding-bottom: 35px !important;}
+.padding-b40 { padding-bottom: 40px !important;}
+
+.padding-tb15 { padding: 15px 0;}
+.padding-rl15 { padding: 0 15px;}
+
+/*----- LIST -----*/
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/*----- DEFAULT -----*/
+
+.pull-right { float: right !important;}
+.pull-left { float: left !important;}
+.text-center { text-align: center;}
+
+.clearfix:after { clear: both;}
+
+.center-block { display: block; margin-right: auto; margin-left: auto;}
+
+.hide { display: none !important;}
+.show { display: block !important;}
+.scroll {
+  height: 100%;
+}
+
+/*----- BUTTONS -----*/
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  transition: .3s ease-out;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.btn-floating {
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  background-color: #D81B60;
+  border-radius: 50%;
+  transition: .3s;
+  cursor: pointer;
+  vertical-align: middle;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.btn-floating.btn-large i { line-height: 42px;}
+
+.btn-floating i {
+  width: inherit;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.bar .buttons span.back-text {
+  display: none;
+}

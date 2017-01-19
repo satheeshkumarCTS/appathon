@@ -1,0 +1,13 @@
+{
+  "name": "events",
+  "app_id": "c59ee1f7",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}
